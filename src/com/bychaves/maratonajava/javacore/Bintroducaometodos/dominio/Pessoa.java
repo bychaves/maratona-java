@@ -5,7 +5,7 @@ public class Pessoa {
     private int idade;
 
 
-    public void imprime(){
+    public void imprime() {
         System.out.println(this.nome);
         System.out.println(this.idade);
     }
@@ -23,6 +23,10 @@ public class Pessoa {
     }
 
     public void setIdade(int idade) {
+        if (idade < 0){
+            System.out.println("Idade Inválida");
+            return;
+        }
         this.idade = idade;
     }
 }
