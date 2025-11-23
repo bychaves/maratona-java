@@ -1,4 +1,4 @@
-package com.bychaves.maratonajava.Minterfaces.dominio;
+package com.bychaves.maratonajava.javacore.Minterfaces.dominio;
 
 public interface DataLoader {
     // Interfaces em java, já são padronizados como public e abstract

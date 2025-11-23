@@ -1,4 +1,4 @@
-package com.bychaves.maratonajava.Minterfaces.dominio;
+package com.bychaves.maratonajava.javacore.Minterfaces.dominio;
 
 public class DatabaseLoader implements DataLoader, DataRemover
 {

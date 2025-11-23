@@ -1,4 +1,4 @@
-package com.bychaves.maratonajava.Lclassesabstratas.dominio;
+package com.bychaves.maratonajava.javacore.Lclassesabstratas.dominio;
 
 public abstract class Pessoa {
     public abstract void imprime();

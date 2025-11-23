@@ -1,8 +1,7 @@
-package com.bychaves.maratonajava.Lclassesabstratas.test;
+package com.bychaves.maratonajava.javacore.Lclassesabstratas.test;
 
-import com.bychaves.maratonajava.Lclassesabstratas.dominio.Desenvolvedor;
-import com.bychaves.maratonajava.Lclassesabstratas.dominio.Funcionario;
-import com.bychaves.maratonajava.Lclassesabstratas.dominio.Gerente;
+import com.bychaves.maratonajava.javacore.Lclassesabstratas.dominio.Desenvolvedor;
+import com.bychaves.maratonajava.javacore.Lclassesabstratas.dominio.Gerente;
 
 public class FuncionarioTest01 {
     public static void main(String[] args) {

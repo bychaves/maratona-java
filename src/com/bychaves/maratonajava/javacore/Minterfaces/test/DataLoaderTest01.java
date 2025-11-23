@@ -1,8 +1,8 @@
-package com.bychaves.maratonajava.Minterfaces.test;
+package com.bychaves.maratonajava.javacore.Minterfaces.test;
 
-import com.bychaves.maratonajava.Minterfaces.dominio.DataLoader;
-import com.bychaves.maratonajava.Minterfaces.dominio.DatabaseLoader;
-import com.bychaves.maratonajava.Minterfaces.dominio.FileLoader;
+import com.bychaves.maratonajava.javacore.Minterfaces.dominio.DataLoader;
+import com.bychaves.maratonajava.javacore.Minterfaces.dominio.DatabaseLoader;
+import com.bychaves.maratonajava.javacore.Minterfaces.dominio.FileLoader;
 
 public class DataLoaderTest01 {
     public static void main(String[] args) {
