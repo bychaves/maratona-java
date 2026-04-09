@@ -2,6 +2,7 @@ package com.bychaves.maratonajava.javacore.Rdatas.test;
 
 import java.time.LocalDate;
 import java.time.Period;
+import java.time.temporal.ChronoUnit;
 
 public class PeriodTest01 {
     public static void main(String[] args) {
@@ -98,8 +99,8 @@ public class PeriodTest01 {
 
         System.out.println(
                 Period.between(
-                        LocalDate.now(),
-                        LocalDate.now().plusDays(p3.getDays())
+                        now,
+                        now.plusDays(p3.getDays())
                 ).getMonths()
         );
         // ENTRADA:
@@ -111,5 +112,24 @@ public class PeriodTest01 {
         // SAÍDA NO CONSOLE (exemplo):
         // 1
         // Indica que existe 1 mês completo nesse intervalo
+
+        System.out.println(now.until(now.plusDays(p3.getDays()), ChronoUnit.DAYS));
+
+        System.out.println(now.until(now.plusDays(p3.getDays()), ChronoUnit.DAYS));
+        // ENTRADA:
+        // data inicial = now (ex: 2025-12-15)
+        // data final = now + 406 dias (58 semanas)
+        // unidade = ChronoUnit.DAYS
+
+        // PROCESSO:
+        // Calcula a quantidade exata de dias entre as duas datas,
+        // ignorando meses e anos (cálculo absoluto em dias)
+
+        // SAÍDA NO CONSOLE:
+        // 406
+
+        // EXPLICAÇÃO:
+        // Retorna exatamente o número de dias entre as datas,
+        // diferente do Period que pode dividir em anos/meses/dias
     }
 }
