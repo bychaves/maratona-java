@@ -11,7 +11,5 @@ public class CalculadoraTest04 {
         System.out.println("Dentro da CalculadoraTest04");
         System.out.println("Num1: " + a);
         System.out.println("Num2: " + b);
-
-
     }
 }
